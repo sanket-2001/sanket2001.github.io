@@ -17,22 +17,7 @@
     margin-left: 55px;
     
 }
-@media(max-width:1028px){
-    .photo{
-        width: 200px;
-        height: 400px;
-        padding-top: 10px;
-        position:relative;
-        left: 240px;
 
-    }
-    .info{
-        margin-top: 15px;
-        margin-right: 10px;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-}
 .icons {
     position: relative;
     bottom: 350px;
