@@ -1,24 +1,4 @@
-/*
-    File: /~jason/css/youtube.css
-    91.461 Assignment: Creating Your First Web Page
-    Jason Downing - student at UMass Lowell in 91.461 GUI Programming I
-    Contact: jdowning@cs.uml.edu or jason_downing@student.uml.edu
-    MIT Licensed - see http://opensource.org/licenses/MIT for details.
-    Anyone may freely use this code. Just don't sue me if it breaks stuff.
-    Created: September 3rd, 2015.
-    Last Updated: September 9th, at 4PM.
 
-    This file is almost a copy of of index.css, other than a change to the body so that the scroll bar doesn't show up.
-
-    All CSS in this file is organized in alphabetical order - as much as possible.
-*/
-
-
-/*
-Google Fonts to use. See the following page for more fonts:
-http://cssdeck.com/labs/cool-and-professional-google-web-fonts-for-use
-
-*/
 @import url(//fonts.googleapis.com/css?family=Ubuntu);
 @import url(//fonts.googleapis.com/css?family=Advent+Pro);
 
@@ -56,10 +36,7 @@ body {
   width: 100%;
   font-family: "Advent Pro", Times, sans-serif;
 
-  /* This is for the Youtube video page, so that the scrollbar doesn't show up in Chrome.
-      An interesting Stackoverflow post had a JS Fiddle that demonstrates this:
-      https://stackoverflow.com/questions/20182409/how-to-make-a-youtube-embedded-video-a-full-page-width-one
-  */
+
   overflow: hidden;
 }
 
@@ -89,13 +66,12 @@ object {
     border: 0;
 }
 
-/* About / Header name */
+
 .about {
   color: white;
   text-align: center;
 }
 
-/* Center text - with a nice font, Advent Pro, from Google. */
 .center_text {
   color: white;
   text-align: center;
@@ -104,23 +80,19 @@ object {
   font-size: 200%;
 }
 
-/* This is to replace <center> tags so the site will validate. I was using <center> tags to make images and
-text appear centered on mobile devices, since the bootstrap grids I setup for mobile make things appear on separate lines.
-This post explained how to do so:
-https://stackoverflow.com/questions/7226056/equivalent-to-center-tag-in-css */
+
 .center_text_images {
   margin: auto;
   text-align: center;
 }
 
-/* Center text with no background. */
+
 .center_text_nohighlight {
   color: black;
   text-align: center;
   font-size: 200%;
 }
 
-/* This does a smaller version of center_text, same font and settings other than font-size. */
 .center_text_small {
   color: white;
   text-align: center;
@@ -153,12 +125,12 @@ https://stackoverflow.com/questions/7226056/equivalent-to-center-tag-in-css */
   left: 0;
 }
 
-/* Highlight just the text. */
+
 .highlight {
   background-color: black;
 }
 
-/* Used to center / highlight text */
+
 .highlight_centered {
   background-color: black;
   color: white;
@@ -186,7 +158,7 @@ https://stackoverflow.com/questions/7226056/equivalent-to-center-tag-in-css */
   text-decoration: underline;
 }
 
-/* Left align text */
+
 .left_align {
   color: white;
   text-align: left;
@@ -194,16 +166,8 @@ https://stackoverflow.com/questions/7226056/equivalent-to-center-tag-in-css */
   font-size: 200%;
 }
 
-/*********************************************************************************************************/
 
-/*
-    This was a pretty cool piece of CSS, as it lets you make the dropdown menu open on hover.
-    You can also still click on the dropdown title to make it stay open.
-    I found it on Stackoverflow here:
-    https://stackoverflow.com/questions/8878033/how-to-make-twitter-bootstrap-menu-dropdown-on-hover-rather-than-click
 
-    Note: everything below here is from that post.
- */
 
 .sidebar-nav {
     padding: 9px 0;
