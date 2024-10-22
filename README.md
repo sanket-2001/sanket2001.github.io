@@ -1,1 +1,1 @@
-sanketamin.me
+sanketamin.tech
